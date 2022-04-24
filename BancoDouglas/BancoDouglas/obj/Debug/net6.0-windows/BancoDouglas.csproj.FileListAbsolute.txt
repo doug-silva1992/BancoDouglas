@@ -1,0 +1,17 @@
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\bin\Debug\net6.0-windows\BancoDouglas.exe
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\bin\Debug\net6.0-windows\BancoDouglas.deps.json
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\bin\Debug\net6.0-windows\BancoDouglas.runtimeconfig.json
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\bin\Debug\net6.0-windows\BancoDouglas.dll
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\bin\Debug\net6.0-windows\BancoDouglas.pdb
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.csproj.AssemblyReference.cache
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.Banco.resources
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.csproj.GenerateResource.cache
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.AssemblyInfoInputs.cache
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.AssemblyInfo.cs
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.csproj.CoreCompileInputs.cache
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.dll
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\refint\BancoDouglas.dll
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.pdb
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\BancoDouglas.genruntimeconfig.cache
+C:\Users\Douglas\Documents\Estudos\C#\BancoDouglas\BancoDouglas\BancoDouglas\obj\Debug\net6.0-windows\ref\BancoDouglas.dll
