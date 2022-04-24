@@ -20,5 +20,27 @@ namespace BancoDouglas
             textNumero.Text = Convert.ToString(conta.Numero);
             textSaldo.Text = Convert.ToString(conta.Saldo);
         }
+
+        private void Sacar_Click_Click(object sender, EventArgs e)
+        {
+            double valorSacar = Convert.ToDouble(textValor.Text);
+            if(conta.Sacar(valorSacar))
+            {
+                textSaldo.Text = Convert.ToString(conta.Saldo);
+                MessageBox.Show("Sucesso");
+            }
+            else
+            {
+                MessageBox.Show("Saldo Insuficiente");
+            }
+        }
+
+        private void Depositar_Click_Click(object sender, EventArgs e)
+        {
+            double valorDepositar = Convert.ToDouble(textValor.Text);
+            conta.Depositar(valorDepositar);
+            textSaldo.Text = Convert.ToString(conta.Saldo);
+            MessageBox.Show("Sucesso");
+        }
     }
 }

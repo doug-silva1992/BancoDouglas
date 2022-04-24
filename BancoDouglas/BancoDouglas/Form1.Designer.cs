@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Sacar_Click = new System.Windows.Forms.Button();
-            this.Depositar_Click = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textValor = new System.Windows.Forms.TextBox();
-            this.textNumero = new System.Windows.Forms.TextBox();
-            this.textSaldo = new System.Windows.Forms.TextBox();
             this.textTitular = new System.Windows.Forms.TextBox();
+            this.textSaldo = new System.Windows.Forms.TextBox();
+            this.textNumero = new System.Windows.Forms.TextBox();
+            this.textValor = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Depositar_Click = new System.Windows.Forms.Button();
+            this.Sacar_Click = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,50 +61,33 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Conta";
             // 
-            // Sacar_Click
+            // textTitular
             // 
-            this.Sacar_Click.Location = new System.Drawing.Point(38, 183);
-            this.Sacar_Click.Name = "Sacar_Click";
-            this.Sacar_Click.Size = new System.Drawing.Size(75, 23);
-            this.Sacar_Click.TabIndex = 0;
-            this.Sacar_Click.Text = "Sacar";
-            this.Sacar_Click.UseVisualStyleBackColor = true;
+            this.textTitular.Location = new System.Drawing.Point(89, 40);
+            this.textTitular.Name = "textTitular";
+            this.textTitular.Size = new System.Drawing.Size(164, 23);
+            this.textTitular.TabIndex = 9;
             // 
-            // Depositar_Click
+            // textSaldo
             // 
-            this.Depositar_Click.Location = new System.Drawing.Point(192, 183);
-            this.Depositar_Click.Name = "Depositar_Click";
-            this.Depositar_Click.Size = new System.Drawing.Size(75, 23);
-            this.Depositar_Click.TabIndex = 1;
-            this.Depositar_Click.Text = "Depositar";
-            this.Depositar_Click.UseVisualStyleBackColor = true;
+            this.textSaldo.Location = new System.Drawing.Point(89, 101);
+            this.textSaldo.Name = "textSaldo";
+            this.textSaldo.Size = new System.Drawing.Size(164, 23);
+            this.textSaldo.TabIndex = 8;
             // 
-            // label1
+            // textNumero
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Titular";
+            this.textNumero.Location = new System.Drawing.Point(89, 69);
+            this.textNumero.Name = "textNumero";
+            this.textNumero.Size = new System.Drawing.Size(164, 23);
+            this.textNumero.TabIndex = 7;
             // 
-            // label2
+            // textValor
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Número";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 15);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Saldo";
+            this.textValor.Location = new System.Drawing.Point(89, 130);
+            this.textValor.Name = "textValor";
+            this.textValor.Size = new System.Drawing.Size(164, 23);
+            this.textValor.TabIndex = 6;
             // 
             // label4
             // 
@@ -115,33 +98,52 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Valor";
             // 
-            // textValor
+            // label3
             // 
-            this.textValor.Location = new System.Drawing.Point(89, 130);
-            this.textValor.Name = "textValor";
-            this.textValor.Size = new System.Drawing.Size(164, 23);
-            this.textValor.TabIndex = 6;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(35, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 15);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Saldo";
             // 
-            // textNumero
+            // label2
             // 
-            this.textNumero.Location = new System.Drawing.Point(89, 69);
-            this.textNumero.Name = "textNumero";
-            this.textNumero.Size = new System.Drawing.Size(164, 23);
-            this.textNumero.TabIndex = 7;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 75);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 15);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Número";
             // 
-            // textSaldo
+            // label1
             // 
-            this.textSaldo.Location = new System.Drawing.Point(89, 101);
-            this.textSaldo.Name = "textSaldo";
-            this.textSaldo.Size = new System.Drawing.Size(164, 23);
-            this.textSaldo.TabIndex = 8;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(31, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Titular";
             // 
-            // textTitular
+            // Depositar_Click
             // 
-            this.textTitular.Location = new System.Drawing.Point(89, 40);
-            this.textTitular.Name = "textTitular";
-            this.textTitular.Size = new System.Drawing.Size(164, 23);
-            this.textTitular.TabIndex = 9;
+            this.Depositar_Click.Location = new System.Drawing.Point(192, 183);
+            this.Depositar_Click.Name = "Depositar_Click";
+            this.Depositar_Click.Size = new System.Drawing.Size(75, 23);
+            this.Depositar_Click.TabIndex = 1;
+            this.Depositar_Click.Text = "Depositar";
+            this.Depositar_Click.UseVisualStyleBackColor = true;
+            this.Depositar_Click.Click += new System.EventHandler(this.Depositar_Click_Click);
+            // 
+            // Sacar_Click
+            // 
+            this.Sacar_Click.Location = new System.Drawing.Point(38, 183);
+            this.Sacar_Click.Name = "Sacar_Click";
+            this.Sacar_Click.Size = new System.Drawing.Size(75, 23);
+            this.Sacar_Click.TabIndex = 0;
+            this.Sacar_Click.Text = "Sacar";
+            this.Sacar_Click.UseVisualStyleBackColor = true;
+            this.Sacar_Click.Click += new System.EventHandler(this.Sacar_Click_Click);
             // 
             // Banco
             // 

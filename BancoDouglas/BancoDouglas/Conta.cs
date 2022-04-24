@@ -10,5 +10,20 @@
         {
             this.Saldo = Valor;
         }
+
+        public void Depositar(double Valor)
+        {
+            this.Saldo += Valor;       
+        }
+
+        public bool Sacar(double Valor)
+        {
+            if(Valor <= this.Saldo)
+            {
+                this.Saldo -= Valor;
+                return true;
+            }
+            return false;
+        }
     }
 }
