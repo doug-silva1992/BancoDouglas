@@ -16,14 +16,14 @@
             this.Saldo += Valor;       
         }
 
-        public bool Sacar(double Valor)
+        public virtual void Sacar(double Valor)
         {
-            if(Valor <= this.Saldo)
-            {
+            //if(Valor <= this.Saldo)
+            //{
                 this.Saldo -= Valor;
-                return true;
-            }
-            return false;
+            //    return true;
+            //}
+            //return false;
         }
     }
 }

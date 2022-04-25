@@ -39,7 +39,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Depositar_Click = new System.Windows.Forms.Button();
             this.Sacar_Click = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textIndice = new System.Windows.Forms.TextBox();
+            this.botaoBuscar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -54,9 +59,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.Depositar_Click);
             this.groupBox1.Controls.Add(this.Sacar_Click);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 136);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(297, 229);
+            this.groupBox1.Size = new System.Drawing.Size(313, 229);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Conta";
@@ -145,17 +150,59 @@
             this.Sacar_Click.UseVisualStyleBackColor = true;
             this.Sacar_Click.Click += new System.EventHandler(this.Sacar_Click_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.botaoBuscar);
+            this.groupBox2.Controls.Add(this.textIndice);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Location = new System.Drawing.Point(12, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(313, 110);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Busca de Conta";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 55);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(89, 15);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Escolha a conta";
+            // 
+            // textIndice
+            // 
+            this.textIndice.Location = new System.Drawing.Point(115, 52);
+            this.textIndice.Name = "textIndice";
+            this.textIndice.Size = new System.Drawing.Size(90, 23);
+            this.textIndice.TabIndex = 1;
+            // 
+            // botaoBuscar
+            // 
+            this.botaoBuscar.Location = new System.Drawing.Point(211, 52);
+            this.botaoBuscar.Name = "botaoBuscar";
+            this.botaoBuscar.Size = new System.Drawing.Size(75, 23);
+            this.botaoBuscar.TabIndex = 2;
+            this.botaoBuscar.Text = "Buscar";
+            this.botaoBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botaoBuscar.UseVisualStyleBackColor = true;
+            this.botaoBuscar.Click += new System.EventHandler(this.botaoBuscar_Click);
+            // 
             // Banco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(321, 253);
+            this.ClientSize = new System.Drawing.Size(337, 377);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Banco";
             this.Text = "Banco";
             this.Load += new System.EventHandler(this.Banco_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -173,5 +220,9 @@
         private Label label1;
         private Button Depositar_Click;
         private Button Sacar_Click;
+        private GroupBox groupBox2;
+        private Button botaoBuscar;
+        private TextBox textIndice;
+        private Label label5;
     }
 }
